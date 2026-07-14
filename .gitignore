@@ -9,6 +9,10 @@ node_modules/
 # Docker
 *.log
 
+# Build output
+dist/
+build/
+
 # Contenido ajeno al proyecto (no relacionado con LicitaIA)
 Deseñador_web/
 

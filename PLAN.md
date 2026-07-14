@@ -27,12 +27,12 @@ Sistema web que automatiza el ciclo de licitaciones: detección (SECOP II + corr
 ## Fase 0 — Setup inicial (antes de Sprint 1)
 
 - [X] Crear repo GitHub privado, estructura monorepo (`/backend`, `/frontend`, `/docker`)
-- [ ] `docker-compose.yml` base: Postgres + Redis + backend + frontend
-- [ ] FastAPI esqueleto (`main.py`, routers, config con `.env`)
-- [ ] React esqueleto (Vite + Tailwind + React Router)
-- [ ] Conexión SQLAlchemy + Alembic (migraciones)
-- [ ] Cuenta/API key de Claude configurada y probada
-- [ ] `.gitignore`, README inicial con instrucciones de instalación
+- [X] `docker-compose.yml` base: Postgres + Redis + backend + frontend
+- [X] FastAPI esqueleto (`main.py`, routers, config con `.env`)
+- [X] React esqueleto (Vite + Tailwind + React Router)
+- [X] Conexión SQLAlchemy + Alembic (migraciones) — probado con migración inicial de `usuarios`/`empresas`
+- [ ] Cuenta/API key de Claude configurada y probada — pendiente: agregar `ANTHROPIC_API_KEY` real en `backend/.env` y correr `python -m scripts.test_claude_api`
+- [X] `.gitignore`, README inicial con instrucciones de instalación
 
 ## Sprint 1 (Semana 1–2) — Base + Autenticación
 
